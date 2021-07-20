@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\raytracerComponent\RayTracerLib\RayTracerLib\obj\Debug\RayTracerLib.csprojAssemblyReference.cache
+C:\Users\user\Desktop\raytracerComponent\RayTracerLib\RayTracerLib\obj\Debug\RayTracerLib.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTracerLib\obj\Debug\RayTracerLib.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTracerLib\bin\Debug\RayTracerLib.dll
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTracerLib\bin\Debug\RayTracerLib.pdb
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTracerLib\obj\Debug\RayTracerLib.csprojAssemblyReference.cache
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTracerLib\obj\Debug\RayTracerLib.dll
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTracerLib\obj\Debug\RayTracerLib.pdb
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTracerLib\bin\Debug\AssimpNet.dll
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTracerLib\bin\Debug\AssimpNet.xml
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTracerLib\obj\Debug\RayTracerLib.csproj.CopyComplete

@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTraceLibRunner\obj\Debug\RayTraceLibRunner.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTraceLibRunner\bin\Debug\RayTraceLibRunner.exe.config
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTraceLibRunner\bin\Debug\RayTraceLibRunner.exe
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTraceLibRunner\bin\Debug\RayTraceLibRunner.pdb
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTraceLibRunner\bin\Debug\RayTracerLib.dll
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTraceLibRunner\bin\Debug\RayTracerLib.pdb
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTraceLibRunner\obj\Debug\RayTraceLibRunner.csprojAssemblyReference.cache
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTraceLibRunner\obj\Debug\RayTraceLibRunner.csproj.CopyComplete
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTraceLibRunner\obj\Debug\RayTraceLibRunner.exe
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTraceLibRunner\obj\Debug\RayTraceLibRunner.pdb
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTraceLibRunner\bin\Debug\AssimpNet.dll
+C:\Users\user\Desktop\raytracerLib\raytracerlib\RayTraceLibRunner\bin\Debug\AssimpNet.xml
