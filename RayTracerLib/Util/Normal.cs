@@ -1,26 +1,43 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Numerics;
 
 namespace RayTracerLib.Util
 {
-
+    /// <summary>
+    /// Class representing a normal vector.
+    /// <remark>
+    /// Remember, a normal vector is a vector of euclidean norm 1 - a unit vector.
+    /// We should think about checking this in the class using assertions.
+    /// </remark>
+    /// </summary>
     public class Normal
     {
+        /// <summary>
+        /// x value
+        /// </summary>
         public double X;
+        /// <summary>
+        /// y value
+        /// </summary>
         public double Y;
+        /// <summary>
+        /// z value
+        /// </summary>
         public double Z;
 
+        /// <summary>
+        /// Default constructor using the zero vector.
+        /// </summary>
         public Normal()
         {
-            X = 0f;
-            Y = 0f;
-            Z = 0f;
+            X = 0.0f;
+            Y = 0.0f;
+            Z = 0.0f;
         }
 
+        /// <summary>
+        /// constructor using a constant
+        /// </summary>
+        /// <param name="a"></param>
         public Normal(double a)
         {
             X = a;

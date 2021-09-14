@@ -1,25 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Numerics;
 
 namespace RayTracerLib.Util
 {
+    /// <summary>
+    /// Three-dimensional Bounding Box
+    /// </summary>
     public class BBox
     {
+        /// <summary>
+        /// Minimum in X
+        /// </summary>
         public double X0;
+        /// <summary>
+        /// Maximum in X
+        /// </summary>
         public double X1;
-
+        /// <summary>
+        /// Minimum in Y
+        /// </summary>
         public double Y0;
+        /// <summary>
+        /// Maximum in Y
+        /// </summary>
         public double Y1;
 
+        /// <summary>
+        /// Minimum in Z
+        /// </summary>
         public double Z0;
+        /// <summary>
+        /// Maximum in Z
+        /// </summary>
         public double Z1;
 
+        /// <summary>
+        /// Tolerance for hit
+        /// </summary>
         private static readonly double _kEpsilon = 0.001f;
 
+        /// <summary>
+        /// Default constructor with an empty box
+        /// </summary>
         public BBox()
         {
             X0 = -1f;
@@ -30,6 +51,15 @@ namespace RayTracerLib.Util
             Z1 = -1f;
         }
 
+        /// <summary>
+        /// Defining a box
+        /// </summary>
+        /// <param name="x0">Minimum x value</param>
+        /// <param name="x1">Maximum x value</param>
+        /// <param name="y0">Minimum y value</param>
+        /// <param name="y1">Maximum y value</param>
+        /// <param name="z0">Minimum z value</param>
+        /// <param name="z1">Maximum z value</param>
         public BBox(
             double x0, double x1,
             double y0, double y1,
@@ -43,7 +73,11 @@ namespace RayTracerLib.Util
             Z1 = z1;
         }
 
-
+        /// <summary>
+        /// Construction of a bounding box using to Vector3 objects
+        /// </summary>
+        /// <param name="p0">Point with the minimal values in x, y and z</param>
+        /// <param name="p1">Point with the maximal values in x, y and z</param>
         public BBox(Vector3 p0, Vector3 p1)
         {
             X0 = p0.X;
@@ -66,6 +100,11 @@ namespace RayTracerLib.Util
             Z1 = rhs.Z1;
         }
 
+        /// <summary>
+        /// Test, if a ray hits the Bounding Box
+        /// </summary>
+        /// <param name="ray">Ray as instance of class Ray</param>
+        /// <returns>True if ray hits the box</returns>
         public bool Hit(Ray ray)
         {
 			double ox = ray.Origin.X; 
@@ -140,6 +179,11 @@ namespace RayTracerLib.Util
 			return (t0 < t1 && t1 > _kEpsilon);
 		}
 
+        /// <summary>
+        /// Check if a point is inside the box
+        /// </summary>
+        /// <param name="p">Point to be checked</param>
+        /// <returns>True is point is inside</returns>
         public bool Inside(Vector3 p)
         {
             return ((p.X > X0 && p.X < X1) && (p.Y > Y0 && p.Y < Y1) && (p.Z > Z0 && p.Z < Z1));
